@@ -8,22 +8,35 @@
     <title>Baap Er Bank</title>
     <script src="https://cdn.tailwindcss.com"></script>
 
+
+    <style>
+        .btn-log {
+            width: 265px;
+        }
+        .btn-log:hover{
+            background-color: green;
+        }
+
+    </style>
+
 </head>
 
 <body>
     <header>
-        <h1 class="text-5xl text-center mt-16">Welcome to my <span
-                class="font-semibold	text-purple-600">Baap-Er-Bank</span>!!!</h1>
+        <h1 class="text-5xl text-center mt-16">Bazar.com <span class="font-semibold	text-purple-600"><span>Online
+                    Shopping Official</span></h1>
     </header>
     <main>
-        <section class="bg-green-100 w-3/4 p-8 mx-auto mt-8">
-            <h3 class="text-2xl mb-4">Please Login Here</h3>
-            <div>
-                <input id="user-email" class="border block border-gray-400	rounded w-3/4 mb-4 px-2" type="text"
+        <section class="bg-gray-300 w-2/4 p-8 mx-auto mt-8 border-2 border-black">
+            <h3 class="text-4xl mb-4 w-2/4 mx-auto">Login Here</h3>
+            <div class="w-2/4 mx-auto">
+                <input id="user-email" class="border block border-gray-400	rounded w-4/4 mb-4 px-2" type="text"
                     placeholder="your email">
-                <input id="user-password" class="border block border-gray-400	rounded w-3/4 mb-4 px-2" type="password"
+                <input id="user-password" class="border block border-gray-400	rounded w-4/4 mb-4 px-2" type="password"
                     name="" id="" placeholder="password">
-                <button id="login-submit" class="bg-yellow-600 px-4 rounded py-2 text-white font-medium">Submit</button>
+                <button id="login-submit" class="btn-log bg-red-600 px-4 rounded py-2 text-white font-medium mb-2">Log In</button>
+                <br>
+                <p>**আগে লগইন কর !!!</p>
             </div>
         </section>
     </main>
